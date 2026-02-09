@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.login-left{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: rgba(61, 125, 209, 0.192); */
+}
+
+.login-left .loginupper{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.login-left .loginupper img{
+  width: 50px;
+}
+
+.login-left .loginupper h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 20px;
+  font-size: 25px;
+  color: rgb(36, 102, 156);
+
+}
+
+.login-left .loginimage{
+  width: 80%;
+  margin-top: 20%;
+}

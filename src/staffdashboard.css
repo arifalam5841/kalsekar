@@ -1,0 +1,604 @@
+.mainlogo-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.mainlogo-cont h1{
+    font-size: 20px;
+    margin-left: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-main-cont img{
+  width: 17vw;
+  margin: 20px 10px;
+
+}
+
+
+.nav-active {
+  background: #243F69;
+  color: #fff;
+}
+
+/* STUDENTS =============================== */
+
+.subject-wrapper {
+  padding: 40px;
+  background: #f6f7fb;
+  font-family: Arial, sans-serif;
+}
+
+/* titles */
+.subject-title {
+  color: #243F69;
+  margin-bottom: 10px;
+}
+
+.subject-subtitle {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.subject-section-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #243F69;
+}
+
+.subject-label {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 6px 0;
+}
+
+/* ================= FORM ================= */
+
+.subject-form {
+  background: #e9e9e9;
+  padding: 22px;
+  border-radius: 10px;
+  width: 520px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.subject-input {
+  padding: 9px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.subject-input.full {
+  width: 100%;
+}
+
+.subject-row {
+  display: flex;
+  gap: 10px;
+}
+
+.subject-radio-row {
+  display: flex;
+  gap: 20px;
+}
+
+.subject-sem-row {
+  display: flex;
+  gap: 10px;
+}
+
+.subject-sem-btn {
+  padding: 6px 12px;
+  border: 1px solid #aaa;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.subject-sem-btn:hover {
+  background: #243F69;
+  color: white;
+}
+
+/* add button */
+.subject-add-btn {
+  width: 120px;
+  padding: 8px;
+  background: #243F69;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ================= SUBJECT CHIPS ================= */
+
+.subject-chip-container {
+  background: #dbe6f8;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  width: fit-content;
+}
+
+.subject-chip {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: white;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+.subject-chip.active {
+  background: #243F69;
+  color: white;
+}
+
+/* ================= UPLOAD SECTIONS ================= */
+
+.subject-upload-box {
+  background: #e9e9e9;
+  padding: 16px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* file button (same pattern) */
+.subject-file-btn {
+  padding: 7px 14px;
+  border: 2px dashed #243F69;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.subject-file-btn:hover {
+  background: #243F69;
+  color: white;
+}
+
+/* upload */
+.subject-upload-btn {
+  background: #243F69;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.subject-upload-btn:hover {
+  opacity: 0.9;
+}
+
+
+
+/* CLASSWORK --------------------------- */
+
+.classwork-wrapper {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+}
+
+/* labels */
+.classwork-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.space-top {
+  margin-top: 30px;
+}
+
+
+
+/* ================= SUBJECT BOX ================= */
+
+.classwork-subject-box {
+  background: #cfe0fb; /* light blue like screenshot */
+  padding: 16px;
+  display: flex;
+  gap: 14px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* subject buttons */
+.classwork-chip {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.classwork-chip.active {
+  background: #243F69;
+  color: white;
+}
+
+
+
+/* ================= UPLOAD BOX ================= */
+
+.classwork-upload-box {
+  background: #e5e5e5; /* grey */
+  padding: 18px;
+  border-radius: 4px;
+
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/* inputs */
+.classwork-input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.classwork-input.name {
+  width: 260px;
+}
+
+.classwork-input.date {
+  width: 150px;
+}
+
+
+/* PDF button */
+.classwork-file-btn {
+  padding: 8px 26px;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  text-align: center;
+  min-width: 110px;
+}
+
+
+/* Add button */
+.classwork-add-btn {
+  padding: 9px 28px;
+  background: #2f5ea8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.classwork-add-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* STAFF NOTICE ========================= */
+
+
+.staffnotice-wrapper {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+
+/* labels */
+.staffnotice-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.space-top {
+  margin-top: 30px;
+}
+
+
+
+/* ================= DEPARTMENT BOX ================= */
+
+.staffnotice-dept-box {
+  background: #cfe0fb;
+  padding: 16px;
+  display: flex;
+  gap: 14px;
+  border-radius: 4px;
+}
+
+
+/* chips */
+.staffnotice-chip {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.staffnotice-chip.active {
+  background: #243F69;
+  color: white;
+}
+
+
+
+/* ================= TEXTAREA ================= */
+
+.staffnotice-textarea {
+  width: 100%;
+  height: 150px;
+  background: #e6e6e6;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+}
+
+
+
+/* ================= ACTION BUTTONS ================= */
+
+.staffnotice-actions {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* send */
+.staffnotice-send-btn {
+  background: #2f5ea8;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.staffnotice-send-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* pdf */
+.staffnotice-file-btn {
+  border: 1px solid #333;
+  background: #f2f2f2;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+
+/* Manual page =============================== */
+
+
+.manual-wrapper {
+  padding: 40px;
+  background: #f6f7fb;
+  font-family: Arial, sans-serif;
+}
+
+
+/* labels */
+.manual-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.space-top {
+  margin-top: 30px;
+}
+
+
+
+/* ================= DEPARTMENT ================= */
+
+.manual-dept-box {
+  background: #cfe0fb;
+  padding: 16px;
+  display: flex;
+  gap: 14px;
+  border-radius: 4px;
+}
+
+.manual-chip {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.manual-chip.active {
+  background: #243F69;
+  color: white;
+}
+
+
+
+/* ================= FORM BOX ================= */
+
+.manual-form-box {
+  background: #e6e6e6;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+
+/* inputs */
+.manual-input {
+  width: 350px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background: white;
+}
+
+
+
+/* ================= ACTIONS ================= */
+
+.manual-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.manual-left-actions {
+  display: flex;
+  gap: 12px;
+}
+
+
+
+/* file buttons */
+.manual-file-btn {
+  border: 1px solid #333;
+  background: #f2f2f2;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+
+
+/* send button */
+.manual-send-btn {
+  background: #2f5ea8;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.manual-send-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* TEST PAGE ========================== */
+
+
+.test-wrapper {
+  padding: 40px;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* labels */
+.test-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.test-space-top {
+  margin-top: 40px;
+}
+
+/* ================= SUBJECT ================= */
+
+.test-subject-box {
+  background: #cfe0fb;
+  padding: 18px;
+  display: flex;
+  gap: 14px;
+  border-radius: 4px;
+}
+
+.test-chip {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.test-chip.active {
+  background: #243F69;
+  color: white;
+}
+
+/* ================= UPLOAD BOX ================= */
+
+.test-upload-box {
+  background: #e0e0e0;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* input row */
+.test-upload-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* inputs */
+.test-input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background: white;
+  font-size: 13px;
+}
+
+.test-desc-input {
+  width: 320px;
+}
+
+.test-date-input {
+  width: 110px;
+}
+
+/* file button */
+.test-file-btn {
+  border: 1px solid #333;
+  background: #ededed;
+  padding: 8px 40px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* add button */
+.test-add-btn {
+  width: 120px;
+  background: #2f5ea8;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.test-add-btn:hover {
+  opacity: 0.9;
+}
+
